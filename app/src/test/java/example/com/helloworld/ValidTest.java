@@ -22,6 +22,6 @@ public class ValidTest {
 
     @Test
     public void emailTestForInvalidInput(){
-        Assert.assertEquals(false, Valid.email("@a.com"));
+        Assert.assertEquals(false, Valid.email("a.com "));
     }
 }
