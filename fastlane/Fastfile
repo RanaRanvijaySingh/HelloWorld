@@ -10,7 +10,7 @@ platform :android do
 
   desc "Run all the tests"
   lane :test do
-    gradle(task: "assembleDebugUnitTest")
+    gradle(task: "test")
   end
 
   desc "Runs all the tests"
