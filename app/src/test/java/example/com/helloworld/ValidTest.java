@@ -7,7 +7,7 @@ public class ValidTest {
 
     @Test
     public void emailTestForValidInput(){
-        Assert.assertEquals(false, Valid.email("a@a.com"));
+        Assert.assertEquals(true, Valid.email("a@a.com"));
     }
 
     @Test
